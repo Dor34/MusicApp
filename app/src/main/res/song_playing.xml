@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    android:padding="@dimen/margin_song_list">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:padding="@dimen/margin_song_list"
+        android:src="@drawable/headphones"/>
+
+
+    <TextView
+        android:id="@+id/song_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorSecondaryLight"
+        android:padding="@dimen/margin_song_list"/>
+
+    <TextView
+        android:id="@+id/artist_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="@dimen/margin_song_list"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/shuffle_button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shuffle" />
+
+        <ImageView
+            android:id="@+id/back_button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:src="@drawable/previous_song"/>
+
+        <ImageView
+            android:id="@+id/play_button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play_button" />
+
+        <ImageView
+            android:id="@+id/forward_button"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:src="@drawable/next_song" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
