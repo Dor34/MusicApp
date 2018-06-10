@@ -6,5 +6,6 @@
     <dimen name="category_width">409dp</dimen>
     <dimen name="category_padding">16dp</dimen>
     <dimen name="category_text_size">28sp</dimen>
+    <dimen name="list_display">8dp</dimen>
 
 </resources>
