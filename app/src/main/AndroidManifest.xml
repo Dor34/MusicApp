@@ -21,7 +21,8 @@
         </activity>
 
         <activity
-            android:name="SouthernRap"
+            android:name=".SouthernRap"
+            android:label="@string/southern_rap"
             android:parentActivityName=".MainActivity"
             tools:targetApi="jelly_bean">
             <!--Parent activity meta-data to support 4.0 and lower -->
@@ -31,7 +32,8 @@
         </activity>
 
         <activity
-            android:name="VariousRap"
+            android:name=".VariousRap"
+            android:label="@string/various_rap"
             android:parentActivityName=".MainActivity"
             tools:targetApi="jelly_bean">
             <!--Parent activity meta-data to support 4.0 and lower -->
@@ -42,6 +44,7 @@
 
         <activity
             android:name="OldSchoolRnB"
+            android:label="@string/old_school_rnb"
             android:parentActivityName=".MainActivity"
             tools:targetApi="jelly_bean">
             <!--Parent activity meta-data to support 4.0 and lower -->
@@ -52,6 +55,7 @@
 
         <activity
             android:name="Instrumentals"
+            android:label="@string/instrumentals"
             android:parentActivityName=".MainActivity"
             tools:targetApi="jelly_bean">
             <!--Parent activity meta-data to support 4.0 and lower -->
@@ -60,7 +64,8 @@
                 android:value=".MainActivity"/>
         </activity>
         <activity
-            android:name="SongPlayingActivity"
+            android:name=".SongPlayingActivity"
+            android:label="@string/song_playing_activity"
             android:parentActivityName=".SongPlayingActivity"
             tools:targetApi="jelly_bean">
         <meta-data

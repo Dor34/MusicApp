@@ -5,4 +5,8 @@
     <string name="old_school_rnb">Old School RnB</string>
     <string name="rap">Various Rap</string>
     <string name="music_player_1_0">Music Player 1.0</string>
+    <string name="list_song_name">Song Name</string>
+    <string name="list_artist_name">Artist Name</string>
+    <string name="various_rap">various_rap</string>
+    <string name="song_playing_activity">song_playing_activity</string>
 </resources>
